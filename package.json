@@ -1,0 +1,44 @@
+{
+  "name": "fifousharp",
+  "displayName": "FifouSharp",
+  "description": "FifouSharp language support powered by the FifouSquare Team",
+  "version": "1.0.2",
+  "publisher": "FifouSquareTeam",
+  "icon": "./themes/icons/fifousharp-icon.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VictorDelamonica/FifouShap-Extension"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "fifousharp",
+      "aliases": ["FifouSharp", "fifousharp"],
+      "extensions": [".ffs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "fifousharp",
+      "scopeName": "source.ffs",
+      "path": "./syntaxes/fifousharp.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "fifousharp",
+        "path": "./snippets/fifousharp-snippets.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "FifouSharp Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fifousharp-theme.json"
+      }
+    ]
+  }
+}

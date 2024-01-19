@@ -1,0 +1,11 @@
+{
+    "iconDefinitions": {
+      "_f_fifousharp": {
+        "iconPath": "./icons/fifousharp-icon.png"
+      }
+    },
+    "fileExtensions": {
+      "ffs": "_f_fifousharp"
+    }
+  }
+  

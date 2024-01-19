@@ -1,0 +1,107 @@
+{
+    "Print to console": {
+      "prefix": "print",
+      "body": [
+        "print ($1)"
+      ],
+      "description": "Print"
+    },
+    "Define Int": {
+        "prefix": "Int",
+        "body": [
+            "Int $1 = $2"
+        ],
+        "description": "Define an Int variable"
+    },
+    "Define Deut": {
+        "prefix": "Deut",
+        "body": [
+            "Deut $1 = $2"
+        ],
+        "description": "Define a Deut(Int) variable"
+    },
+    "Define Short": {
+        "prefix": "Short",
+        "body": [
+            "Short $1 = $2"
+        ],
+        "description": "Define a Short variable"
+    },
+    "Define Long": {
+        "prefix": "Long",
+        "body": [
+            "Long $1 = $2"
+        ],
+        "description": "Define a Long variable"
+    },
+    "Define String": {
+        "prefix": "String",
+        "body": [
+            "String $1 = \"$2\""
+        ],
+        "description": "Define a String variable"
+    },
+    "Define Double": {
+        "prefix": "Double",
+        "body": [
+            "Double $1 = $2"
+        ],
+        "description": "Define a Double variable"
+    },
+    "Define Float": {
+        "prefix": "Float",
+        "body": [
+            "Float $1 = $2"
+        ],
+        "description": "Define a Float variable"
+    },
+    "Define Cool": {
+        "prefix": "Cool",
+        "body": [
+            "Cool $1 = $2"
+        ],
+        "description": "Define a Cool(Float) variable"
+    },
+    "Define Bool": {
+        "prefix": "Bool",
+        "body": [
+            "Bool $1 = $2"
+        ],
+        "description": "Define a Bool variable"
+    },
+    "Define Char": {
+        "prefix": "Char",
+        "body": [
+            "Char $1 = '$2'"
+        ],
+        "description": "Define a Char variable"
+    },
+    "Define Chariot": {
+        "prefix": "Chariot",
+        "body": [
+            "Deut $1 = $2"
+        ],
+        "description": "Define a Chariot(Char) variable"
+    },
+    "Define Fiak": {
+        "prefix": "Fiak",
+        "body": [
+            "Fiak $1 = $2"
+        ],
+        "description": "Define a Fiak variable"
+    },
+    "Equals": {
+        "prefix": "eq",
+        "body": [
+            "$1 == $2"
+        ],
+        "description": "Equals"
+    },
+    "Not Equals": {
+        "prefix": "!eq",
+        "body": [
+            "$1 != $2"
+        ],
+        "description": "Not Equals"
+    }
+}

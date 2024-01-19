@@ -1,0 +1,98 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "FifouSharp",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#character"
+		},
+		{
+			"include": "#commentSingle"
+		},
+		{
+			"include": "#commentBlock"
+		},
+		{
+			"name": "constant.numeric.fifousharp",
+			"match": "\\b\\d+(\\.\\d+)?\\b"
+		  },
+		{
+			"name": "Int types.fifousharp",
+			"match": "\\b(Int|Bool|String|Char|Float|Double|Long)\\b"
+		},
+		{
+			"name": "True boolean.fifousharp",
+			"match": "\\b(True|False)\\b"
+		},
+		{
+			"name": "Fiak special.fifousharp",
+			"match": "\\b(Deut|Cool|Simple|Chariot|Slip|Fiak)\\b"
+		},
+		{
+			"name": "Eq opperator.fifousharp",
+			"match": "(==|!=)"
+		},
+		{
+			"name": "All opperator.fifousharp",
+			"match": "\\+|-|\\*|\\/|%"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.fifousharp",
+				"match": "\\b(if|while|for|return|print)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.fifousharp",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.fifousharp",
+					"match": "\\\\."
+				}
+			]
+		},
+		"character": {
+			"name": "character.quoted.single.fifousharp",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.fifousharp",
+					"match": "\\\\."
+				}
+			]
+		},
+		"commentSingle": {
+			"name": "comment.fifousharp",
+			"begin": "\/\/",
+			"end": "\n",
+			"patterns": [
+				{
+					"name": "comment.fifousharp",
+					"match": "\\\\."
+				}
+			]
+		},
+		"commentBlock": {
+			"name": "comment.fifousharp",
+			"begin": "\/\\*",
+			"end": "\\*\/",
+			"patterns": [
+				{
+					"name": "comment.fifousharp",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.ffs"
+}
