@@ -6,6 +6,9 @@ This extension recognizes the FifouSharp language and provides syntax highlighti
 
 ## Release Notes
 
+## 1.0.3
+- Migrate the repo
+
 ## 1.0.2
 - Change Color theme name
 

@@ -2,12 +2,12 @@
   "name": "fifousharp",
   "displayName": "FifouSharp",
   "description": "FifouSharp language support powered by the FifouSquare Team",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "FifouSquareTeam",
   "icon": "./themes/icons/fifousharp-icon.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VictorDelamonica/FifouShap-Extension"
+    "url": "https://github.com/FifouSquare/FifouSharp-Extension"
   },
   "engines": {
     "vscode": "^1.85.0"
